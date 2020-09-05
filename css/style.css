@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: normal;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+/* header css */
+.header_area {
+    box-shadow: 0 0 55px 1px #ddd;
+    padding: 20px 0;
+}
+
+.main_area {
+    padding: 100px 0;
+}
+
+.main_tool_area {
+    border: 5px dashed #dfdfdf;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.main_tool_area h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    color: #444;
+}
+
+.subText {
+    display: block;
+    color: #999;
+    font-size: 20px;
+}
+
+.fileUploadArea {
+    margin-top: 50px;
+}
+
+.browseBtn {
+    font-size: 30px;
+    border: 0;
+    background: top;
+}
+
+.browseBtn label {
+    margin: 0;
+    display: block;
+    background: #00bff3;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.download_btn {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: #ff4757;
+    border: 0;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 50px;
+}
